@@ -2,17 +2,17 @@ package com.example.cursomc.resources.exceptions;
 
 import java.io.Serializable;
 
-public class FieldMassage implements Serializable{
+public class FieldMessage implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	private String fieldName;
 	private String massage;
 	
-	public FieldMassage () {
+	public FieldMessage () {
 		
 	}
 
-	public FieldMassage(String fieldName, String massage) {
+	public FieldMessage(String fieldName, String massage) {
 		super();
 		this.fieldName = fieldName;
 		this.massage = massage;
@@ -26,11 +26,11 @@ public class FieldMassage implements Serializable{
 		this.fieldName = fieldName;
 	}
 
-	public String getMassage() {
+	public String getMessage() {
 		return massage;
 	}
 
-	public void setMassage(String massage) {
+	public void setMessage(String massage) {
 		this.massage = massage;
 	}
 }
