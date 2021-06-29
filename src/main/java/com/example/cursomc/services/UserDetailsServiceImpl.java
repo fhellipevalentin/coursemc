@@ -11,6 +11,7 @@ import com.example.cursomc.repositories.ClienteRepository;
 import com.example.cursomc.security.UserSS;
 
 @Service
+
 public class UserDetailsServiceImpl implements UserDetailsService{
 	
 	@Autowired
